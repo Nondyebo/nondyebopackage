@@ -1,0 +1,21 @@
+Metadata-Version: 1.0
+Name: nondyebopackage
+Version: 0.1
+Summary: EDSA python package
+Home-page: https://github.com/Nondyebo/nondyebopackage/blob/master/setup.py
+Author: Nondyebo
+Author-email: nondyeboh@gmail.com
+License: MIT
+Description: # nondyebopackage
+        This library was created as an example of how to publish your own Python package.
+        
+        ## building this package locally
+        `python setup.py sdist`
+        
+        ## installing this package from GitHub
+        `pip install git+http://github.com/James-Leslie/example-python-package.git`
+        
+        ## updating this package from GitHub
+        `pip install --upgrade git+http://github.com/James-Leslie/example-python-package.git`
+        
+Platform: UNKNOWN
