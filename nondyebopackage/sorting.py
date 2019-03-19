@@ -33,26 +33,25 @@ def linear_merge(list1, list2):
             mergeList += list1
     return mergeList
 
-def quick_sort(items,index=-1):
+def quick_sort(items):
+    len_i = len(items)
+    index = -1
 
-    '''Return array of items, sorted in ascending order'''
-    len_a = len(items)
+    if len_i <= 1:
 
-
-    if len_a <= 1:
         return items
 
     pivot = items[index]
     small = []
     large = []
     dup = []
-    for a in items:
-        if a < pivot:
-            small.append(a)
-        elif a > pivot:
-            large.append(a)
-        elif a == pivot:
-            dup.append(a)
+    for i in items:
+        if i < pivot:
+            small.append(i)
+        elif i > pivot:
+            large.append(i)
+        elif i == pivot:
+            dup.append(i)
 
     small = quick_sort(small)
     large = quick_sort(large)
