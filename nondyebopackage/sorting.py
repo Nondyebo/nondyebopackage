@@ -37,6 +37,7 @@ def quick_sort(items):
 
     '''Return array of items, sorted in ascending order'''
     len_a = len(items)
+    index=-1
 
     if len_a <= 1:
         return items
